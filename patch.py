@@ -26,3 +26,5 @@ os.remove('scratch-gui/build/index.html')
 
 shutil.copy('scratch-gui/build/editor.html', 'scratch-gui/build/index.html')
 shutil.copy('robots.txt', 'scratch-gui/build/robots.txt')
+shutil.copy('CNAME', 'scratch-gui/build/CNAME')
+
